@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "./dist/valkyrie-connect/",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}

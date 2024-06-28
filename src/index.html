@@ -5,9 +5,33 @@
   <title>ValkyrieConnect</title>
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body>
   <app-root></app-root>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+  <script>
+    // Inicializa el carrusel
+    $(document).ready(function(){
+      $("#carousel").owlCarousel({
+        items: 4, // Número de elementos visibles en el carrusel
+        loop: true, // Repetir el carrusel en un bucle
+        autoplay: true, // Reproducir automáticamente el carrusel
+        autoplayTimeout: 3000, // Tiempo de espera entre las transiciones de los elementos (en milisegundos)
+        autoplayHoverPause: true, // Pausar el carrusel al pasar el cursor sobre él
+        responsive: {
+          // Configuraciones específicas para diferentes tamaños de pantalla
+          0: { items: 1 },
+          768: { items: 4 },
+          992: { items: 4 }
+        }
+      });
+    });
+  </script>
+  
 </body>
 </html>

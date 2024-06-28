@@ -1,0 +1,162 @@
+.card{
+    width: 20vw;
+    height: 15vw;
+    background-color: rgb(235, 235, 235);
+    border-radius: 2vw;
+    margin: 10vw 2vw;
+    box-shadow: 15px 15px 30px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 15px 15px 30px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 15px 15px 30px 0px rgba(0,0,0,0.75);   
+    transition: 0.5s ease;
+    }
+
+.card:hover{
+background-color: rgb(235, 235, 235);
+transform: translateY(-2vw);
+}
+.card:focus{
+    width: 50vw;
+}
+
+.card img{
+    position: relative;
+    top: -8vw;
+    left: -2vw;
+    max-width: 15vw;
+    height: auto;
+}
+.connect{
+    background-image: linear-gradient(to right,#98453B , #f0c257);
+    width: 20vw;
+    height: 5vw;
+    border-radius: 2vw 2vw 1vw 1vw;
+}
+#connect{
+    position: relative;
+    top: -17vw;
+    left: -2.5vw;
+    max-width: 11vw;
+    height: auto;
+    opacity: 0.9;
+}
+#carousel{
+    position: relative;
+    top: 7vw;
+}
+
+#armor{
+    position: relative;
+    top: -17vw;
+    left: -2vw;
+    max-width: 12vw;
+    height: auto;
+}
+#asalt{
+    position: relative;
+    top: -20vw;
+    left: -4vw;
+    max-width: 15vw;
+    height: auto;
+}
+#guia{
+    position: relative;
+    top: -13vw;
+    left: -1vw;
+    max-width: 7vw;
+    height: auto;
+    
+}
+#status{
+    position: relative;
+    top: -16vw;
+    left: -2.5vw;
+    max-width: 10vw;
+    height: auto;
+    opacity: 0.9;
+}
+h1{
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2.3vw;
+    position: relative;
+    left: 9.3vw;
+}
+
+h2{
+    color: rgb(32, 32, 32);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.3vw;
+    position: relative;
+    left: 2vw; 
+}
+p{
+    color: rgb(32, 32, 32);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1vw;
+    position: relative;
+   
+}
+#article{
+    position: relative;
+    top: -16vw;
+    left: -3vw;
+    max-width: 13vw;
+    height: auto;
+   
+}
+#characters{
+    position: relative;
+    top: -18vw;
+    left: -2.5vw;
+    max-width: 15vw;
+    height: auto;
+    opacity: 0.9;
+}
+.Article{
+    background-image: linear-gradient(to right,#E2D8B7 , #ba6832);
+    width: 20vw;
+    height: 5vw;
+    border-radius: 2vw 2vw 1vw 1vw;
+}
+.Characters{
+    background-image: linear-gradient(to right,#6a5b7f , #93c9e4);
+    width: 20vw;
+    height: 5vw;
+    border-radius: 2vw 2vw 1vw 1vw;
+}
+.Asalt{
+    background-image: linear-gradient(to right,#95d3f3 , #0c4059);
+    width: 20vw;
+    height: 5vw;
+    border-radius: 2vw 2vw 1vw 1vw;
+}
+.Guia{
+    background-image: linear-gradient(to right,#2e1b02 , #8b4029);
+    width: 20vw;
+    height: 5vw;
+    border-radius: 2vw 2vw 1vw 1vw;
+}
+.Status{
+    background-image: linear-gradient(to right,#50859D , #a2c3d2);
+    width: 20vw;
+    height: 5vw;
+    border-radius: 2vw 2vw 1vw 1vw;
+}
+.Armor{
+    background-image: linear-gradient(to right,#a01d1d , #27499e);
+    width: 20vw;
+    height: 5vw;
+    border-radius: 2vw 2vw 1vw 1vw;
+    
+}
+a{
+    text-decoration: none;
+}
+@media (max-width: 800px) {
+  .card{
+    transform: scale(2);
+  }
+  #carousel{
+    transform: scale(2);
+  }
+}
